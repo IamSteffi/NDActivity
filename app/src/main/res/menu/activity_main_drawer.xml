@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_calculadora"
+            android:icon="@drawable/calculadora"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/fragment_reproductor"
+            android:icon="@drawable/musica"
+            android:title="Rproductor" />
+        <item
+            android:id="@+id/fragment_paginaWeb"
+            android:icon="@drawable/web"
+            android:title="Pagina web" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_apk"
+            android:icon="@drawable/apk"
+            android:title="Direccionar a otro APP" />
+        <item
+            android:id="@+id/fragment_maravillas"
+            android:icon="@drawable/lugar"
+            android:title="Maravillas modernas" />
+        <item
+            android:id="@+id/fragment_coronavirus"
+            android:icon="@drawable/coronavirus"
+            android:title="Coronavirus" />
+    </group>
+</menu>

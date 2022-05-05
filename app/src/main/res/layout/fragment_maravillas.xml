@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/maravillas"
+    tools:context=".Fragment_maravillas">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/color_two"
+                android:text="Las 7 nuevas maravillas del mundo moderno"
+                android:textSize="23dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/cards"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/machupicchu"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:text="La ciudadela de Machu Picchu en Cusco, Perú"
+                        android:textAlignment="center"
+                        android:textColor="@color/color_two"
+                        android:textColorHighlight="@color/active"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/ropa_sans"
+                        android:text="Descubierta en el año 1902 por Agustín Lizárraga y dada a conocer al mundo en 1911 por Hiram Bingham, la ciudad “perdida” de los Incas fue construida a mediados del siglo XV d. C por órdenes del Inca Pachacútec. Si bien este centro arqueológico no tiene nombre, Machu Picchu, la montaña donde se encuentra ubicada, significa en quechua “Montaña Vieja”. Según investigaciones, este lugar servía como un espacio de reposo para el Inca y estaba destinado a albergar un aproximado de 300 personas."
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/cards"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/chichenitza"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:text="Chichén Itzá en la península de Yucatán, México"
+                        android:textAlignment="center"
+                        android:textColor="@color/color_two"
+                        android:textColorHighlight="@color/active"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/ropa_sans"
+                        android:text="En el idioma Maya, su nombre significa “Boca del Pozo de los Brujos del Agua” ya que, según la creencia de esa época, el cenote sagrado servía como entrada al inframundo.
+
+Inaugurada en el año 525 d.C., este “castillo”, como denominaron los conquistadores españoles a esta maravilla mundial, sirvió como templo para el dios Kukulkán y consiste en una pirámide con una serie de terrazas cuadradas con escaleras que suben desde cada uno de los cuatro lados la misma hasta la parte superior. Fue declarada Patrimonio de la Humanidad por la UNESCO en el año 1988."
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/cards"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/coliseoromano"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:text="El Coliseo de Roma, Italia"
+                        android:textAlignment="center"
+                        android:textColor="@color/color_two"
+                        android:textColorHighlight="@color/active"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/ropa_sans"
+                        android:text="Este anfiteatro, el cual es el tesoro que el Imperio Romano dejó como herencia a la Ciudad Eterna, es una de las 7 maravillas del mundo moderno debido a que es el más grande nunca antes construido en el mundo. Su nombre original fue Anfiteatro Flavio y aquí se organizaban las luchas de los gladiadores, entre otros espectáculos. Funcionó durante más de 500 años y fue construido para soportar a más de 50 mil espectadores. Hoy en día es un atractivo turístico que atrae cada año a más de 100 mil turistas a la ciudad de la luz."
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/cards"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/cristoredentor"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:text="Cristo Redentor de Río de Janeiro, Brasil"
+                        android:textAlignment="center"
+                        android:textColor="@color/color_two"
+                        android:textColorHighlight="@color/active"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/ropa_sans"
+                        android:text="Otra de las 7 maravillas del mundo moderno es la gran estatua de Jesús de Nazaret con los brazos abiertos que se ve desde cualquier punto de la ciudad de Río de Janeiro en Brasil. Este monumento Art Decó de 30 metros de altura en lo más alto del cerro Corcovado fue inaugurado en 1931 y es el fruto del trabajo en conjunto del escultor polaco-francés Paul Landowski y del ingeniero brasileño Heitor da Silva Costa. Como dato curioso, la estatua fue construida en Francia y llegó a Brasil en cientos de partes solo para ser ensamblada desde la cabeza hasta los pies para poder ser levantada en el cerro."
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/cards"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/murallachina"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:text="La Gran Muralla China"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_two"
+                    android:textColorHighlight="@color/active"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/ropa_sans"
+                    android:text="Esta maravilla del mundo moderno, la cual es la construcción emblemática de todo China, sirvió como fortaleza a base de piedra, ladrillo, madera y tierra apisonada para proteger a este país asiático de las posibles invasiones de los mongoles por el norte. Originalmente llegó a medir más de 21 mil kilómetros cuando fue construida entre los siglos V a.c. y XVI d.c. (¡Más de 2000 años!) y millones de obreros perdieron la vida durante su construcción, lo que la convierte también en el mayor y más grande cementerio del mundo ya que estas personas fueron enterradas ahí. Existe una creencia que dicta que esta construcción puede ser divisada desde el espacio, pero fue desmentida por distintos astronautas."
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/cards"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/tajmahal"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:text="Taj Mahal, India"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_two"
+                    android:textColorHighlight="@color/active"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/ropa_sans"
+                    android:text="Si hablamos de las 7 maravillas del mundo moderno, no podemos olvidarnos del apoteósico Taj Mahal. Posiblemente, este es el edificio más romántico del mundo, pues fue construido a mediados del siglo XVII por el emperador Shah Jahan como mausoleo para enterrar a su difunta esposa. Se dice que el emperador estaba tan enamorado de ella que ordenó construir el mausoleo más bello y grandioso en su honor. Mide 42 acres que incluyen una mezquita y una casa de huéspedes, además de los jardines. El nombre de este edificio hace referencia a Arjumand, su difunta esposa, quien era conocida como Mumtaz Mahal que en persa significa “Elegida del Palacio” o “Primera Dama del Palacio”; mientras que “Taj” significa “corona”. Por ende, el nombre del Taj Mahal significa “Corona de Mahal”."
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/cards"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ciudadpetra"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:text="Petra: la Ciudad de Piedra, Jordania"
+                        android:textAlignment="center"
+                        android:textColor="@color/color_two"
+                        android:textColorHighlight="@color/active"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/ropa_sans"
+                        android:text="Originalmente conocida como Raqmu, la ciudad de Piedra le valió un lugar entre las 7 maravillas del mundo moderno por su arquitectura excavada en la roca, así como también por su avanzado sistema de conductos de agua. La ciudad de Petra, construida muy posiblemente ya en el año 312 a.C como la capital de los nabateos árabes, era el lugar de paso de las caravanas que transportaban especias, incienso y productos de lujo entre Arabia, Siria, Egipto y el Sur del Mediterráneo. Sus altos muros, los cuales albergaban tanto agua potable como seguridad a los mercaderes, son un símbolo definitivo de Jordania. Fue declarada Patrimonio de la Humanidad por la UNESCO en 1985."
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

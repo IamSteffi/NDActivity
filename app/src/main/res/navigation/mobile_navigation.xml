@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragment_calculadora">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ndatarea1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.ndatarea1.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.ndatarea1.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_apk"
+        android:name="com.example.ndatarea1.Fragment_apk"
+        android:label="fragment_apk"
+        tools:layout="@layout/fragment_apk" />
+    <fragment
+        android:id="@+id/fragment_calculadora"
+        android:name="com.example.ndatarea1.Fragment_calculadora"
+        android:label="fragment_calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/fragment_coronavirus"
+        android:name="com.example.ndatarea1.Fragment_coronavirus"
+        android:label="fragment_coronavirus"
+        tools:layout="@layout/fragment_coronavirus" />
+    <fragment
+        android:id="@+id/fragment_maravillas"
+        android:name="com.example.ndatarea1.Fragment_maravillas"
+        android:label="fragment_maravillas"
+        tools:layout="@layout/fragment_maravillas" />
+    <fragment
+        android:id="@+id/fragment_paginaWeb"
+        android:name="com.example.ndatarea1.Fragment_paginaWeb"
+        android:label="fragment_paginaweb"
+        tools:layout="@layout/fragment_paginaweb" />
+    <fragment
+        android:id="@+id/fragment_reproductor"
+        android:name="com.example.ndatarea1.Fragment_reproductor"
+        android:label="fragment_reproductor"
+        tools:layout="@layout/fragment_reproductor" />
+    <fragment
+        android:id="@+id/fragment_generos"
+        android:name="com.example.ndatarea1.Fragment_generos"
+        android:label="fragment_generos"
+        tools:layout="@layout/fragment_generos" />
+
+</navigation>
